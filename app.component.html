@@ -1,0 +1,15 @@
+<input type="text"    (input)="sendToService($event)"   placeholder="type to send to service">
+ <p>Data is {{title}}</p>
+
+
+
+
+
+<h1 [hidden]='isHide'>{{cal}}</h1>
+ <button (click)="showHide()">ShowHide</button>
+ <h3 [class]="cssClass" [innerText]="cal"></h3>
+<h2 [innerText]="tookInput"></h2>
+<input type="text"(input)=takeInput($event)  placeholder="type  something"> 
+<br>
+<hr>
+<app-parent></app-parent>

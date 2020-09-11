@@ -1,0 +1,12 @@
+<button (click)="getData()" >Get Data From Service</button>
+
+<p>Service Data is {{serviceData}}</p>
+
+
+<p>child works!</p>
+<h3>Data received from parent {{parentdata}}</h3>
+
+<h3>Message Is {{msg}}</h3>
+
+<input #t1 type="text" placeholder="type to send Data To Parent">
+<button (click)="send(t1.value)">Send Data To Parent</button>
